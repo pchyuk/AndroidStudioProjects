@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView2.setImageResource(R.drawable.dice4);
                 } else if (num1 == 4) {
                     imageView2.setImageResource(R.drawable.dice5);
-                } else if (num1 == 5) {
+                } else  {
                     imageView2.setImageResource(R.drawable.dice6);
                 }
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView3.setImageResource(R.drawable.dice4);
                 } else if (num2 == 4) {
                     imageView3.setImageResource(R.drawable.dice5);
-                } else if (num2 == 5) {
+                } else {
                     imageView3.setImageResource(R.drawable.dice6);
                 }
 
